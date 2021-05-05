@@ -1,0 +1,12 @@
+{
+  "seed": 42,
+  "MODEL_NAME": "bert-base-multilingual-cased",
+  "output_dir": "./outputs/conf8_bert-base-multilingual-cased",
+  "logging_dir": "./logs/conf8_bert-base-multilingual-cased",
+  "EPOCH": 15,
+  "optimizer": "AdamW",
+  "learning_rate": 5e-5,
+  "batch_size": 32,
+  "rtq": "off",
+  "two_sentence": "on"
+}

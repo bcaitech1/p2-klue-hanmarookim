@@ -1,0 +1,10 @@
+{
+  "seed": 42,
+  "MODEL_NAME": "monologg/koelectra-small-v3-discriminator",
+  "output_dir": "./outputs/conf2_koelectra_small_v3_test3",
+  "logging_dir": "./logs/conf2_koelectra_small_v3_test3",
+  "EPOCH": 15,
+  "optimizer": "AdamW",
+  "learning_rate": 5e-5,
+  "batch_size": 16
+}

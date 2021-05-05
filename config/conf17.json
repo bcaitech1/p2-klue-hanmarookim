@@ -1,0 +1,14 @@
+{
+  "seed": 42,
+  "MODEL_NAME": "xlm-roberta-large",
+  "output_dir": "./outputs/conf17_xlm-roberta-large_ner_entity",
+  "logging_dir": "./logs/conf17_xlm-roberta-large_ner_entity",
+  "EPOCH": 18,
+  "optimizer": "AdamW",
+  "learning_rate": 5e-5,
+  "batch_size": 16,
+  "rtq": "off",
+  "two_sentence": "off",
+  "except_0": "off",
+  "entity_token": "on"
+}

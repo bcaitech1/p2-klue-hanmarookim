@@ -1,0 +1,14 @@
+{
+  "seed": 42,
+  "MODEL_NAME": "xlm-roberta-large",
+  "output_dir": "./outputs/conf21_xlm-roberta-large_discussion_ner_entity_normalize",
+  "logging_dir": "./logs/conf21_xlm-roberta-large_discussion_ner_entity_normalize",
+  "EPOCH": 10,
+  "optimizer": "AdamW",
+  "learning_rate": 1e-5,
+  "batch_size": 32,
+  "rtq": "off",
+  "two_sentence": "off",
+  "except_0": "off",
+  "entity_token": "on"
+}

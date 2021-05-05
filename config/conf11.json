@@ -1,0 +1,13 @@
+{
+  "seed": 42,
+  "MODEL_NAME": "monologg/koelectra-base-v3-discriminator",
+  "output_dir": "./outputs/conf11_koelectra-base-v3-discriminator_e0",
+  "logging_dir": "./logs/conf11_koelectra-base-v3-discriminator_e0",
+  "EPOCH": 20,
+  "optimizer": "AdamW",
+  "learning_rate": 5e-5,
+  "batch_size": 32,
+  "rtq": "off",
+  "two_sentence": "on",
+  "except_0": "on"
+}

@@ -1,0 +1,10 @@
+{
+  "seed": 42,
+  "MODEL_NAME": "xlm-roberta-large",
+  "output_dir": "./outputs/conf5_xlm-roberta-large",
+  "logging_dir": "./logs/conf5_xlm-roberta-large",
+  "EPOCH": 15,
+  "optimizer": "AdamW",
+  "learning_rate": 5e-5,
+  "batch_size": 16
+}
